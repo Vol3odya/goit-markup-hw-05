@@ -359,9 +359,9 @@
             </div>
             <div class="foot-mail">
                 <P class="foot-mail-text">Subscribe</P>
-                <div class="foot-mail-btn">
+                <form class="foot-mail-btn">
                     <label>
-                        <input type="email" name="user-email" class="foot-input" required id="user-email" placeholder="E-mail">
+                        <input type="email" name="user-email1" class="foot-input" required placeholder="E-mail">
                     </label>
                     <button type="submit" class="foot-btn">
                         Subscribe
@@ -369,7 +369,7 @@
                             <use href="./images/icons.svg#icon-icon-send"></use>
                         </svg>
                     </button>
-                </div>
+                </form>
             </div>
         </div>
     </footer>
@@ -386,7 +386,7 @@
                     <label class="modal-label" for="user-name">Name</label>
                     <div class="modal-input-wrap">
                         <input type="text" name="user-name" class="modal-input" required id="user-name">
-                        <svg class="modal-icon" width="18px" height="18px">
+                        <svg class="modal-icon" width="18px" height="24px">
                             <use href="./images/icons.svg#icon-Vector1"></use>
                         </svg>
                     </div>
@@ -410,12 +410,12 @@
                     </div>
                 </div>
                 <div class="modal-form-icon">
-                    <label class="modal-label" for="user-text">Comment</label>
-                    <textarea class="modal-form-txt" name="eser-text" id="user-text" placeholder="Text input"></textarea>
+                    <label class="modal-label" for="user-comment">Comment</label>
+                    <textarea class="modal-form-txt" name="user-comment" id="user-comment" placeholder="Text input"></textarea>
                 </div>
                 <div class="modal-chec">
-                    <input class="modal-chec-input visually-hidden" type="checkbox" id="user-off" required>
-                    <label class="modal-chec-label" for="user-off"><span>
+                    <input class="modal-chec-input visually-hidden" name="user-privacy" type="checkbox" id="user-privacy" required value="true">
+                    <label class="modal-chec-label" for="user-privacy"><span class="qaz">
                         <svg class="modal-chec-svg" width="10px" height="8px">
                             <use href="./images/icons.svg#icon-Vector"></use>
                         </svg>
