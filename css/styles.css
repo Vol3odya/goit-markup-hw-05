@@ -695,7 +695,7 @@ body{
     display: block;
 }
 .modal-form-icon{
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 .modal-icon{
     position: absolute;
@@ -755,6 +755,8 @@ body{
     align-items: center;
     justify-content: center;
     fill: transparent;
+    display: inline-flex;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-link {
     line-height: 133%;
@@ -770,7 +772,7 @@ body{
 .modal-chec-svg{
 
 }
-.qaz{
+/*.qaz{
     display: inline-flex;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+}*/
