@@ -525,9 +525,9 @@ body{
     display: flex;
     gap: 24px;
 }
-.foot-label{
+/*.foot-label{
 
-}
+}*/
 .foot-input{
     border: 1px solid #fff;;
     border-radius: 4px;
@@ -644,9 +644,9 @@ body{
     color: #2e2f42;
     margin-bottom: 16px;
 }
-.modal-form{
+/*.modal-form{
 
-}
+}*/
 .modal-input{
     background-color: transparent; 
     outline: transparent;
@@ -737,8 +737,8 @@ body{
 .modal-chec {
     margin-bottom: 24px;
 }
-.modal-chec-input {
-}
+/*.modal-chec-input {
+}*/
 .modal-chec-label {
     font-weight: 400;
     line-height: 117%;
@@ -774,7 +774,7 @@ body{
     fill: #f4f4fd;
 }
 .modal-chec-svg{
-
+    display: inline-flex;
 }
 .qaz{
     width: 16px;
