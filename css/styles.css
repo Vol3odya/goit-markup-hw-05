@@ -695,6 +695,9 @@ body{
     display: block;
 }
 .modal-form-icon{
+    margin-bottom: 8px;
+}
+.modal-form-ico{
     margin-bottom: 16px;
 }
 .modal-icon{
@@ -751,7 +754,7 @@ body{
     border-radius: 2px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     margin-right: 8px;
-    display: flex;
+    /*display: flex;*/
     align-items: center;
     justify-content: center;
     fill: transparent;
