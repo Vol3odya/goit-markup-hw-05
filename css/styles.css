@@ -748,19 +748,19 @@ body{
     align-items: center;
     margin-bottom: 24px;
 }
-.modal-chec-label span{
+/*.modal-chec-label span{
     width: 16px;
     height: 16px;
     border-radius: 2px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     margin-right: 8px;
-    /*display: flex;*/
+    /*display: flex;
     align-items: center;
     justify-content: center;
     fill: transparent;
     display: inline-flex;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+}*/
 .modal-link {
     line-height: 133%;
     text-decoration: underline;
@@ -775,7 +775,15 @@ body{
 .modal-chec-svg{
 
 }
-/*.qaz{
+.qaz{
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    margin-right: 8px;
+    align-items: center;
+    justify-content: center;
+    fill: transparent;
     display: inline-flex;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}*/
+}
